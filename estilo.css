@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden; /* esta es una */
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+select {
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    z-index:999999; /* esta es otra */
+}
+
+canvas {
+    display: block;
+}
+
+div {
+    padding: 0.5rem 3rem;
+}
+
+h1, p {
+    padding: 0.25rem;
+}
